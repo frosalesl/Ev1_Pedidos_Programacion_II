@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EV1 Pedidos Programacion II</string>
+    <string name="pastel_nombre">Pastel de Choclo</string>
+    <string name="cazuela_nombre">Cazuela</string>
+    <string name="pastel_nombre_precio">Pastel de Choclo ($12.000)</string>
+    <string name="cazuela_nombre_precio">Cazuela ($10.000)</string>
+    <string name="cant">Cant.</string>
+    <string name="cantidad_inicial">0</string>
+    <string name="total_a_pagar">TOTAL A PAGAR:</string>
+    <string name="subtotal">Subtotal:</string>
+    <string name="_0">$ 0</string>
+    <string name="incluir_10_propina">Incluir 10% Propina</string>
+    <string name="total_comida_sin_propina">Total Comida (Sin Propina):</string>
+    <string name="monto_propina_10">Monto Propina (10%):</string>
+</resources>
