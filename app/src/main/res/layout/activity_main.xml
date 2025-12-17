@@ -29,8 +29,8 @@
 
     <ImageView
         android:id="@+id/iv_choclo"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:layout_marginTop="12dp"
         android:scaleType="centerCrop"
         android:src="@drawable/pastel"
@@ -53,20 +53,21 @@
         android:id="@+id/tv_subtotal_pastel_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="@string/subtotal"
-        android:textSize="14sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@id/tv_subtotal_pastel"
-        app:layout_constraintTop_toTopOf="@id/tv_nombre_pastel" />
+        app:layout_constraintStart_toStartOf="@id/tv_label_pastel_cant"
+        app:layout_constraintTop_toBottomOf="@id/et_cantidad_pastel" />
+
 
     <TextView
         android:id="@+id/tv_subtotal_pastel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_0"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/tv_nombre_pastel" />
+        app:layout_constraintStart_toEndOf="@id/tv_subtotal_pastel_label"
+        app:layout_constraintBaseline_toBaselineOf="@id/tv_subtotal_pastel_label" />
+
 
     <TextView
         android:id="@+id/tv_label_pastel_cant"
@@ -93,8 +94,8 @@
 
     <ImageView
         android:id="@+id/iv_cazuela"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:layout_marginTop="32dp"
         android:scaleType="centerCrop"
         android:src="@drawable/cazuela"
@@ -117,20 +118,19 @@
         android:id="@+id/tv_subtotal_cazuela_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="@string/subtotal"
-        android:textSize="14sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@id/tv_subtotal_cazuela"
-        app:layout_constraintTop_toTopOf="@id/tv_nombre_cazuela" />
+        app:layout_constraintStart_toStartOf="@id/tv_label_cazuela_cant"
+        app:layout_constraintTop_toBottomOf="@id/et_cantidad_cazuela" />
 
     <TextView
         android:id="@+id/tv_subtotal_cazuela"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_0"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/tv_nombre_cazuela" />
+        app:layout_constraintStart_toEndOf="@id/tv_subtotal_cazuela_label"
+        app:layout_constraintBaseline_toBaselineOf="@id/tv_subtotal_cazuela_label" />
 
     <TextView
         android:id="@+id/tv_label_cazuela_cant"
