@@ -1,15 +1,9 @@
 package com.example.ev1_pedidos_programacion_ii.modelo
 
-/**
- * Clase que representa un ítem solicitado por una mesa.
- * Contiene el platillo asociado (ItemMenu) y la cantidad.
- */
+//Se crea una clase para una mesa específica. Ella contiene el plato asociado y la cantidad.
 class ItemMesa(val itemMenu: ItemMenu, var cantidad: Int) {
-
-    /**
-     * Calcula el subtotal para este ítem: cantidad * precio unitario.
-     */
+    //Se realiza una función que calcula el subtotal. Ello mediante la cantidad multiplicado por el precio unitario.
     fun calcularSubtotal(): Int {
-        return cantidad * itemMenu.valoUnitario
+        return cantidad * itemMenu.valorUnitario
     }
 }

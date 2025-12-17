@@ -1,6 +1,4 @@
 package com.example.ev1_pedidos_programacion_ii.modelo
 
-/**
- * Clase que representa un platillo ofrecido en el menú.
- */
-class ItemMenu(val nombre: String, val valoUnitario: Int)
+//Se crea una clase que posee el plato que se ofrece en el restaurante. Para ello se utiliza variable inmutable nombre "val", como también el valor unitario.
+class ItemMenu(val nombre: String, val valorUnitario: Int)
